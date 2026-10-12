@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "bloomberg": {
+      "command": "python",
+      "args": [
+        "C:\\path\\to\\bloomberg-mcp\\server.py"
+      ]
+    }
+  }
+}

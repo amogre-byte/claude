@@ -1,8 +1,12 @@
 {
   "mcpServers": {
     "bloomberg": {
-      "type": "sse",
-      "url": "http://127.0.0.1:8000"
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "bloomberg-mcp/server.py"
+      ],
+      "env": {}
     }
   }
 }
